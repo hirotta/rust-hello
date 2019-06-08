@@ -23,5 +23,5 @@ fn panic(_info: &PanicInfo) -> ! {
 # [link(name="syscall", kind="static")]
 extern "C"{
     fn kaku(fd: i64, ptr: *const u8, len: usize);
-    fn owaru(fd: i64);
+    fn owaru(ec: i64);
 }
