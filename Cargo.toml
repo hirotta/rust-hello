@@ -5,3 +5,9 @@ authors = ["ubuntu"]
 edition = "2018"
 
 [dependencies]
+
+[build-dependencies]
+cc = "1.0"
+
+[profile.dev]
+panic = "abort"
